@@ -1,40 +1,50 @@
 @import "settings";
 @import "foundation";
 
-// Or selectively include components
-// @import
-//   "foundation/components/accordion",
-//   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
-//   "foundation/components/breadcrumbs",
-//   "foundation/components/button-groups",
-//   "foundation/components/buttons",
-//   "foundation/components/clearing",
-//   "foundation/components/dropdown",
-//   "foundation/components/dropdown-buttons",
-//   "foundation/components/flex-video",
-//   "foundation/components/forms",
-//   "foundation/components/grid",
-//   "foundation/components/inline-lists",
-//   "foundation/components/joyride",
-//   "foundation/components/keystrokes",
-//   "foundation/components/labels",
-//   "foundation/components/magellan",
-//   "foundation/components/orbit",
-//   "foundation/components/pagination",
-//   "foundation/components/panels",
-//   "foundation/components/pricing-tables",
-//   "foundation/components/progress-bars",
-//   "foundation/components/reveal",
-//   "foundation/components/side-nav",
-//   "foundation/components/split-buttons",
-//   "foundation/components/sub-nav",
-//   "foundation/components/switches",
-//   "foundation/components/tables",
-//   "foundation/components/tabs",
-//   "foundation/components/thumbs",
-//   "foundation/components/tooltips",
-//   "foundation/components/top-bar",
-//   "foundation/components/type",
-//   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
+.top-bar{
+    background:pink;
+h2{
+   font-family: 'Dancing Script', cursive; 
+    font-color:white;
+}
+}
+.header {
+    margin-top:3px;
+  text-align: center;
+  background-image:url(../images/5.svg) ;
+  padding: 100px;
+    background-size: cover;
+    background-position:top;
+  
+.main-header {
+    color: black;
+  }
+}
+     
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+    font-family: arial,tahoma;
+}
+
+.weather {
+  background: white;
+  position: relative;
+
+h3{
+  text-align: center;
+  background:pink no-repeat center center;
+  background-size:contain;
+  padding: 10px;
+    font-family: 'Dancing Script', cursive;
+ }
+    .popular{
+    color:black;
+    }  
+}
+
+
+.row1{
+margin-top: 30px;
+    text-align: center;
+
+}
